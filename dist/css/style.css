@@ -190,6 +190,10 @@
    text-align: center;
  }
 
+ .hero__text .lead {
+   color: white;
+ }
+
  .scroll {
    width: 22px;
    height: 40px;
@@ -344,7 +348,8 @@
  /*_contacts_*/
 
  .contacts {
-   background: #0951FA;
+   background: url(../img/footer-bg.png) #0951FA;
+   background-size: 328px 302px;
    padding: 8em 0;
  }
 
