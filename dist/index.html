@@ -36,7 +36,7 @@
         <ul class="list-inline card-group text-center wow fadeIn" data-wow-offset="200">
           <li class="products__card card">
 
-            <div class="card-body">
+            <div class="card-body d-flex justify-content-center flex-column">
               <h3 class="product__logo pm-logo">
                 Property Manager
               </h3>
@@ -46,13 +46,16 @@
               <p>
                 Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на електронни издания като е запазен почти без промяна.
               </p>
-              <a href="./property-manager" class="btn btn-lg btn-outline-primary">Property Manager</a>
+              <div class="card-button mt-auto">
+                <a href="./property-manager" class="btn btn-lg btn-outline-primary">Property Manager</a>
+              </div>
+
             </div>
 
           </li>
           <li class="products__card card">
 
-            <div class="card-body">
+            <div class="card-body d-flex justify-content-center flex-column">
               <h3 class="product__logo rm-logo">
                 Rental Manager
               </h3>
@@ -62,8 +65,12 @@
               <p>
                 Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на електронни издания като е запазен почти без промяна.
               </p>
-              <a href="./rental-manager" class="btn btn-lg btn-outline-primary">Rental Manager</a>
+              <div class="card-button mt-auto">
+                <a href="./rental-manager" class="btn btn-lg btn-outline-primary">Rental Manager</a>
+              </div>
+
             </div>
+
 
           </li>
         </ul>
@@ -184,9 +191,32 @@
               </div>
               <div id="klienti" class="tab-pane fade">
                 <h3 class="tab-pane__title">Клиенти</h3>
+                <p>
+                  We work side by side with our customers, combining their domain knowledge with our technology experience to create software products that meet stakeholders’ every need.
+                </p>
+                <div class="clients__testimonial">
+                  <blockquote class="blockquote p-5 bg-white">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                </div>
+                <ul class="clients__list list-inline row">
+                  <li class="col-6 pb-5 col-sm-4 align-self-center text-center">
+                    <img src="img/client-aperture.svg" alt="">
+                  </li>
+                  <li class="col-6 pb-5 col-sm-4 align-self-center text-center">
+                    <img src="img/client-umbrella.svg" alt="">
+                  </li>
+                  <li class="col-6 pb-5 col-sm-4 align-self-center text-center">
+                    <img src="img/client-vault-tec.svg" alt="">
+                  </li>
+                </ul>
               </div>
               <div id="produkti" class="tab-pane fade">
                 <h3 class="tab-pane__title">Продукти</h3>
+                <p>
+                  We work side by side with our customers, combining their domain knowledge with our technology experience to create software products that meet stakeholders’ every need.
+                </p>
               </div>
             </div>
           </div>
