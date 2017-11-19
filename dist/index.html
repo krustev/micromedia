@@ -2,14 +2,18 @@
 <html lang="en">
 
   <head>
-    <title>micromedia 0o0</title>
+
     <!-- META -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <title>micromedia 0o0</title>
+
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
+
   </head>
 
   <body>
@@ -27,8 +31,9 @@
     </header>
     <!-- MAIN -->
     <div class="main">
+      <!-- PRODUCTS -->
       <section class="products container">
-        <ul class="list-inline card-group text-center">
+        <ul class="list-inline card-group text-center wow fadeIn" data-wow-offset="200">
           <li class="products__card card">
 
             <div class="card-body">
@@ -63,9 +68,10 @@
           </li>
         </ul>
       </section>
+      <!-- OFFER -->
       <section class="offer">
         <div class="container">
-          <div class="row">
+          <div class="row wow fadeIn" data-wow-offset="200">
             <div class="side-col col-md-4">
               <div class="offer__nav list-group">
                 <a href="#uslugi" class="list-group-item list-group-item-action active" data-toggle="list">
@@ -100,21 +106,21 @@
                 </ul>
                 <ul class="list-unstyled services__list">
                   <li class="services__item media">
-                    <span class="services__icon pe-7s-phone"></span>
+                    <span class="services__icon pe-7s-phone bg-violet"></span>
                     <div class="media-body">
                       <h4>Мобилни приложения</h4>
                       <p>With the "explosion" in the mobile devices usage, we decided to ride our part of the wave, specializing in building Android, iOS and Windows Phone native and hybrid apps. These apps quite often require more than just the pretty native user interface, but could also involve on-premise SQL Server or Azure SQL Database, Blob storage and push notification systems integration.</p>
                     </div>
                   </li>
                   <li class="services__item media">
-                    <span class="services__icon pe-7s-global"></span>
+                    <span class="services__icon pe-7s-global bg-purple"></span>
                     <div class="media-body">
                       <h4>Уеб</h4>
                       <p>Our skills in ASP.NET/MVC, HTML5 and JavaScript help us create compelling web systems with responsive design. The concepts we follow and the architectures we create are in the foundation of making it possible to meet the scale and global reach of any demand.</p>
                     </div>
                   </li>
                   <li class="services__item media">
-                    <span class="services__icon pe-7s-cloud-upload"></span>
+                    <span class="services__icon pe-7s-cloud-upload bg-teal"></span>
                     <div class="media-body">
                       <h4>Облачни услуги</h4>
                       <p>Our skills in ASP.NET/MVC, HTML5 and JavaScript help us create compelling web systems with responsive design. The concepts we follow and the architectures we create are in the foundation of making it possible to meet the scale and global reach of any demand.</p>
@@ -124,9 +130,57 @@
               </div>
               <div id="tehnologii" class="tab-pane fade">
                 <h3 class="tab-pane__title">Технологии</h3>
+                <p class="lead">We have experience in the latest technologies and modern platforms for rapid prototyping, accelerated time to market and superior maintainability.</p>
+                <ul class="list--dash">
+                  <li>HTML5/CSS3</li>
+                  <li>JavaScript, jQuery, Angular, Knockout</li>
+                  <li>ASP.NET, ASP.NET Web API, ASP.NET MVC</li>
+                  <li>Xamarin Platform for native mobile apps on C#</li>
+                  <li>Microsoft Azure Cloud Computing Platform & Services</li>
+                </ul>
+                <div class="logo-list row pb-5">
+                  <div class="col-6 pr-md-5">
+                    <img src="img/ms-net-logo.svg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-6 pr-md-5">
+                    <!-- <img src="img/html-css-logo.svg" class="img-fluid pb-5" alt=""> -->
+                    <img src="img/jquery-logo.svg" class="img-fluid mb-4" alt="">
+                    <img src="img/xamarin-logo.svg" class="img-fluid mb-4" alt="">
+                    <img src="img/angular-logo.svg" class="img-fluid mb-4" alt="">
+                  </div>
+                </div>
               </div>
               <div id="proces" class="tab-pane fade">
                 <h3 class="tab-pane__title">Процес</h3>
+                <p class="lead">
+                  Agile software development with Scrum – for responding to change in fast-paced, less complex R&amp;D projects. Agile works for cases with many uncertainties, requiring active involvement from the Product Owner (customer) and iterative prototyping to meet stakeholder needs.
+                </p>
+                <p>
+                  We work side by side with our customers, combining their domain knowledge with our technology experience to create software products that meet stakeholders’ every need.
+                </p>
+                <ul class="list-unstyled services__list">
+                  <li class="services__item media">
+                    <span class="services__icon pe-7s-gleam bg-yellow"></span>
+                    <div class="media-body">
+                      <h4>Rapid prototyping</h4>
+                      <p>When time and money are a constraint, mistakes must be made fast and inexpensively. We try to understand our applications’ users before we even begin to commit code by creating interactive mock-ups and using them to collect stakeholder feedback.</p>
+                    </div>
+                  </li>
+                  <li class="services__item media">
+                    <span class="services__icon pe-7s-timer bg-orange"></span>
+                    <div class="media-body">
+                      <h4>Fast time to market</h4>
+                      <p>We step on the developer community’s leading frameworks (i.e. Angular 2) and platforms (i.e. Xamarin or Telerik Platform) to accelerate development and ship scalable, reliable and maintainable code.</p>
+                    </div>
+                  </li>
+                  <li class="services__item media">
+                    <span class="services__icon pe-7s-look bg-red"></span>
+                    <div class="media-body">
+                      <h4>100% transparency</h4>
+                      <p>When projects are managed with the Scrum methodology, the customer, as the Product Owner, is given access in Visual Studio Online. This brings transparency in the development process and creates trust that our team’s performance and outputs match your expectations.</p>
+                    </div>
+                  </li>
+                </ul>
               </div>
               <div id="klienti" class="tab-pane fade">
                 <h3 class="tab-pane__title">Клиенти</h3>
@@ -146,19 +200,19 @@
           <h3 class="mx-auto col-12">Свържете се с нас</h3>
           <ul class="contacts__list list-unstyled col-sm-10 col-md-8 mx-auto">
             <li class="bubble__container clearfix">
-              <div class="bubble">
+              <div class="bubble wow bounceInRight">
                 <span class="icon pe-7s-phone"></span>
                 <a href="tel:00359893013299">089 301 3299</a>
               </div>
             </li>
             <li class="bubble__container clearfix">
-              <div class="bubble">
+              <div class="bubble wow bounceInLeft" data-wow-delay="0.2s">
                 <span class="icon pe-7s-mail-open-file"></span>
                 <a href="mailto:sales@micromedia.bg">sales@micromedia.bg</a>
               </div>
             </li>
             <li class="bubble__container clearfix">
-              <div class="bubble">
+              <div class="bubble wow bounceInRight" data-wow-delay="0.4s">
                 <span class="icon pe-7s-smile"></span>
                 <p>До скоро!</p>
               </div>
@@ -173,6 +227,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script type="text/javascript">
+      new WOW().init();
+
+    </script>
 
   </body>
 
